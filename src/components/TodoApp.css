@@ -1,0 +1,76 @@
+.todoContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.todoForm{
+    display: flex;
+    gap: 5px;
+   
+}
+
+.todoInput{
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+.btnCreate{ border: none;
+    border-radius: 5px;
+    background-color: #055c1b;
+    color: #fff;
+    padding: 10px 20px;
+
+
+}
+
+.todosContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.todo{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.todoTitle{
+    flex: 1;
+    font-size: 20px;
+}
+
+
+.todoUpdateForm, .todoInfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.button{border: none;
+border-radius: 3px;
+background-color: rgb(39, 116, 218);
+color: white;
+padding: 10px 20px;
+}
+
+
+.buttonDelete{border: none;
+    border-radius: 3px;
+    background-color: rgb(223, 81, 81);
+    color: white;
+    padding: 10px 20px;
+    }
